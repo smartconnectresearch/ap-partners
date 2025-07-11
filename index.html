@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Your Client Relationships into Recurring Revenue | SCR Exclusive Vendor Partner Programme</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Join SCR's exclusive vendor partner programme. Earn £15-20k per referral over 12 months. Translation agencies, lead gen firms, and tech partners welcome. One partner per category.">
+    <meta name="keywords" content="SCR partner programme, vendor referral programme, market research partnerships, translation agency partnership, recurring commissions">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Turn One Introduction Into 12 Months of Revenue - SCR Partner Programme">
+    <meta property="og:description" content="Earn £15-20k per referral with SCR's exclusive vendor partner programme. Limited to one partner per category.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://smartconnectresearch.com/partner">
+    <meta property="og:image" content="https://smartconnectresearch.com/images/partner-og.jpg">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SCR Vendor Partner Programme - £15-20k Per Referral">
+    <meta name="twitter:description" content="Transform your client relationships into recurring revenue. Exclusive programme, one partner per category.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #0a0e27;
+            --accent: #6366f1;
+            --accent-bright: #818cf8;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --bg: #ffffff;
+            --bg-subtle: #f8fafc;
+            --border: #e2e8f0;
+            --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-dark: linear-gradient(135deg, #0a0e27 0%, #1e293b 100%);
+            --gradient-gold: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+            --gradient-success: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+            overflow-x: hidden;
+        }
+
+        /* Credibility Bar */
+        .credibility-bar {
+            background: var(--primary);
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            font-size: 0.95rem;
+            border-bottom: 2px solid var(--accent);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .credibility-bar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent 0%, rgba(99, 102, 241, 0.3) 50%, transparent 100%);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            to { left: 100%; }
+        }
+
+        .credibility-content {
+            position: relative;
+            z-index: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--gradient-dark);
+            color: white;
+            padding: 80px 20px;
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 20% 80%, rgba(16, 185, 129, 0.2) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.3) 0%, transparent 50%);
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(-5%, -5%) rotate(0deg); }
+            50% { transform: translate(5%, 5%) rotate(180deg); }
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .exclusive-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gradient-success);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 0.875rem;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
+            animation: pulse-badge 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-badge {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            background: linear-gradient(to right, #fff, #10b981, #818cf8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 40px;
+            color: #e2e8f0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Partner Types Grid */
+        .partner-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto 60px;
+            padding: 0 20px;
+        }
+
+        .partner-type {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .partner-type:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-4px);
+            border-color: var(--accent);
+        }
+
+        .partner-type-icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+
+        .partner-type-name {
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+
+        /* Value Prop Cards */
+        .value-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .value-card-hero {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .value-card-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-1);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .value-card-hero:hover::before {
+            transform: scaleX(1);
+        }
+
+        .value-card-hero:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .value-icon-hero {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .value-title-hero {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .value-metric {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--success);
+            text-shadow: 0 2px 10px rgba(16, 185, 129, 0.3);
+        }
+
+        /* Commission Calculator Section */
+        .calculator-section {
+            padding: 100px 20px;
+            background: var(--bg-subtle);
+        }
+
+        .calculator-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            padding: 60px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
+        }
+
+        .calculator-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .calculator-inputs {
+            background: var(--bg-subtle);
+            padding: 40px;
+            border-radius: 16px;
+        }
+
+        .calculator-input-group {
+            margin-bottom: 30px;
+        }
+
+        .calculator-label {
+            display: block;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 12px;
+            font-size: 1.125rem;
+        }
+
+        .calculator-input {
+            width: 100%;
+            padding: 16px 20px;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            font-size: 1.125rem;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .calculator-input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .calculator-slider {
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            background: var(--border);
+            outline: none;
+            -webkit-appearance: none;
+            margin: 20px 0;
+        }
+
+        .calculator-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(99, 102, 241, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .calculator-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+            box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
+        }
+
+        .calculator-slider::-moz-range-thumb {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(99, 102, 241, 0.3);
+            border: none;
+        }
+
+        .calculator-results {
+            position: sticky;
+            top: 20px;
+        }
+
+        .results-card {
+            background: var(--gradient-1);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
+        }
+
+        .results-title {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .results-total {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 30px;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .results-breakdown {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .breakdown-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .breakdown-row:last-child {
+            border-bottom: none;
+        }
+
+        .results-cta {
+            background: var(--gradient-success);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
+        }
+
+        .results-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(16, 185, 129, 0.4);
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .how-it-works-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .section-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Partner Journey */
+        .partner-journey {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin: 60px 0;
+            position: relative;
+        }
+
+        .partner-journey::before {
+            content: '';
+            position: absolute;
+            top: 50px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: var(--border);
+            z-index: 0;
+        }
+
+        .journey-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-number {
+            width: 100px;
+            height: 100px;
+            background: white;
+            border: 3px solid var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--accent);
+            margin: 0 auto 24px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+        }
+
+        .journey-step:hover .step-number {
+            background: var(--gradient-1);
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(99, 102, 241, 0.3);
+        }
+
+        .step-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .step-description {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Commission Structure */
+        .commission-section {
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .commission-visual {
+            max-width: 1000px;
+            margin: 60px auto;
+            background: var(--bg-subtle);
+            border-radius: 24px;
+            padding: 60px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .commission-visual::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.05) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+
+        @keyframes rotate {
+            100% { transform: rotate(360deg); }
+        }
+
+        .commission-timeline {
+            position: relative;
+            padding: 40px 0;
+        }
+
+        .commission-phase {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        .phase-label {
+            text-align: right;
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.125rem;
+        }
+
+        .phase-bar {
+            position: relative;
+            height: 60px;
+            background: white;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .phase-fill {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 0 30px;
+            color: white;
+            font-weight: 700;
+            font-size: 1.125rem;
+            border-radius: 30px;
+        }
+
+        .phase-1 .phase-fill {
+            width: 100%;
+            background: var(--gradient-1);
+        }
+
+        .phase-2 .phase-fill {
+            width: 60%;
+            background: var(--gradient-success);
+        }
+
+        .phase-3 .phase-fill {
+            width: 30%;
+            background: var(--gradient-gold);
+        }
+
+        /* Special Cases Card */
+        .special-cases-card {
+            margin-top: 40px;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            border: 2px solid var(--warning);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .special-cases-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-gold);
+        }
+
+        .special-cases-title {
+            color: var(--primary);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .special-cases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .special-case-item {
+            background: var(--bg-subtle);
+            padding: 24px;
+            border-radius: 16px;
+            border-left: 4px solid var(--warning);
+        }
+
+        .special-case-title {
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .special-case-description {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Revenue Examples */
+        .examples-section {
+            padding: 100px 20px;
+            background: var(--bg-subtle);
+        }
+
+        .example-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 60px auto;
+        }
+
+        .example-card {
+            background: var(--gradient-1);
+            color: white;
+            border-radius: 24px;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .example-card:nth-child(2) {
+            background: var(--gradient-success);
+        }
+
+        .example-card:nth-child(3) {
+            background: var(--gradient-gold);
+        }
+
+        .example-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+        }
+
+        .example-partner {
+            font-size: 1.125rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .example-scenario {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .example-breakdown {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .breakdown-item:last-child {
+            border-bottom: none;
+        }
+
+        .example-total {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Double Win Section Enhanced */
+        .double-win-section {
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .double-win-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            max-width: 1200px;
+            margin: 60px auto;
+            align-items: center;
+        }
+
+        .double-win-visual {
+            display: grid;
+            gap: 30px;
+        }
+
+        .win-card {
+            padding: 40px;
+            border-radius: 24px;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .win-card-1 {
+            background: var(--gradient-1);
+            color: white;
+        }
+
+        .win-card-2 {
+            background: var(--gradient-success);
+            color: white;
+        }
+
+        .win-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .win-number {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .win-value {
+            font-size: 1.125rem;
+            opacity: 0.9;
+        }
+
+        .double-win-examples {
+            background: var(--bg-subtle);
+            padding: 40px;
+            border-radius: 20px;
+        }
+
+        .example-tab {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            border-left: 4px solid var(--accent);
+            transition: all 0.3s ease;
+        }
+
+        .example-tab:hover {
+            transform: translateX(8px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .example-tab-header {
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 16px;
+            font-size: 1.125rem;
+        }
+
+        .example-tab-content {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        .example-highlight {
+            color: var(--success);
+            font-weight: 700;
+        }
+
+        /* Partner Benefits */
+        .benefits-section {
+            padding: 100px 20px;
+            background: var(--bg-subtle);
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            max-width: 1200px;
+            margin: 60px auto;
+        }
+
+        .benefit-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefit-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--gradient-1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 24px;
+        }
+
+        .benefit-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 16px;
+        }
+
+        .benefit-description {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .faq-grid {
+            display: grid;
+            gap: 24px;
+            max-width: 900px;
+            margin: 60px auto 0;
+        }
+
+        .faq-item {
+            background: var(--bg-subtle);
+            padding: 32px;
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            cursor: pointer;
+        }
+
+        .faq-item:hover {
+            transform: translateX(8px);
+            border-color: var(--accent);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .faq-question {
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 12px;
+            font-size: 1.125rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .faq-question::before {
+            content: '→';
+            color: var(--accent);
+            font-size: 1.5rem;
+        }
+
+        .faq-answer {
+            color: var(--text-light);
+            line-height: 1.8;
+            padding-left: 36px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: var(--gradient-dark);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            width: 300%;
+            height: 300%;
+            background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.2) 0%, transparent 50%);
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.3; }
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .limited-time-badge {
+            background: var(--gradient-gold);
+            color: white;
+            padding: 12px 32px;
+            border-radius: 30px;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-weight: 700;
+            box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);
+            animation: shake 2s ease-in-out infinite;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        .cta-title {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .cta-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .cta-primary {
+            background: var(--gradient-success);
+            color: white;
+            padding: 20px 48px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.25rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 40px rgba(16, 185, 129, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-primary::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .cta-primary:hover::before {
+            width: 400px;
+            height: 400px;
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 50px rgba(16, 185, 129, 0.4);
+        }
+
+        .cta-secondary {
+            background: transparent;
+            color: white;
+            padding: 20px 48px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.125rem;
+            transition: all 0.3s ease;
+        }
+
+        .cta-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .contact-info {
+            opacity: 0.8;
+            line-height: 2;
+        }
+
+        .contact-info a {
+            color: var(--accent-bright);
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .value-cards {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .partner-journey {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .partner-journey::before {
+                display: none;
+            }
+            
+            .commission-phase {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .phase-label {
+                text-align: center;
+                margin-bottom: 16px;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .calculator-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .double-win-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .partner-types {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+            
+            .example-cards {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .cta-primary,
+            .cta-secondary {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .calculator-container {
+                padding: 40px 20px;
+            }
+            
+            .special-cases-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Credibility Bar -->
+    <div class="credibility-bar">
+        <div class="credibility-content">
+            SCR: The research firm insiders recommend | 10 years of referral-driven growth | By invitation only
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="exclusive-badge">
+                🚀 Exclusive Vendor Partner Programme for SCR Partners
+            </div>
+            <h1>Turn One Introduction Into<br>12 Months of Revenue</h1>
+            <p class="subtitle">Join our exclusive partner programme and earn recurring commissions when we close your referrals</p>
+            
+            <!-- Partner Types -->
+            <div class="partner-types">
+                <div class="partner-type">
+                    <div class="partner-type-icon">🌐</div>
+                    <div class="partner-type-name">Translation Agencies</div>
+                </div>
+                <div class="partner-type">
+                    <div class="partner-type-icon">📊</div>
+                    <div class="partner-type-name">Lead Gen Firms</div>
+                </div>
+                <div class="partner-type">
+                    <div class="partner-type-icon">💻</div>
+                    <div class="partner-type-name">Tech Partners</div>
+                </div>
+                <div class="partner-type">
+                    <div class="partner-type-icon">🔍</div>
+                    <div class="partner-type-name">Fieldwork & Panel Partners</div>
+                </div>
+            </div>
+
+            <!-- Value Cards -->
+            <div class="value-cards">
+                <div class="value-card-hero">
+                    <div class="value-icon-hero">💰</div>
+                    <h3 class="value-title-hero">Earnings Example</h3>
+                    <div class="value-metric">£15-20k</div>
+                    <p style="font-size: 0.875rem; opacity: 0.8; margin-top: 8px; line-height: 1.4;">
+                        £50k project (10%) = £5k<br>
+                        + £250k expansion (5%) = £12.5k<br>
+                        + £200k ongoing (2.5%) = £5k
+                    </p>
+                </div>
+                <div class="value-card-hero">
+                    <div class="value-icon-hero">⏱️</div>
+                    <h3 class="value-title-hero">Revenue Period</h3>
+                    <div class="value-metric">12 Months</div>
+                </div>
+                <div class="value-card-hero">
+                    <div class="value-icon-hero">🎯</div>
+                    <h3 class="value-title-hero">Your Effort</h3>
+                    <div class="value-metric">One Intro</div>
+                </div>
+            </div>
+
+            <div class="cta-buttons" style="margin-top: 40px;">
+                <a href="#calculator" class="cta-primary">Calculate Your Earnings</a>
+                <a href="#examples" class="cta-secondary">View Revenue Examples</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commission Calculator Section -->
+    <section class="calculator-section" id="calculator">
+        <div class="section-header">
+            <h2 class="section-title">Calculate Your Partner Earnings</h2>
+            <p class="section-subtitle">See how much you could earn from a single referral over 12 months</p>
+        </div>
+        
+        <div class="calculator-container">
+            <div class="calculator-grid">
+                <div class="calculator-inputs">
+                    <h3 style="font-size: 1.5rem; color: var(--primary); margin-bottom: 30px;">Estimate Client Spend</h3>
+                    
+                    <div class="calculator-input-group">
+                        <label class="calculator-label">Initial Project Value</label>
+                        <input type="text" class="calculator-input" id="initial-project" value="£50,000">
+                        <input type="range" class="calculator-slider" id="initial-slider" min="50000" max="200000" step="10000" value="50000">
+                    </div>
+                    
+                    <div class="calculator-input-group">
+                        <label class="calculator-label">Additional Work (Months 1-6)</label>
+                        <input type="text" class="calculator-input" id="expansion-value" value="£150,000">
+                        <input type="range" class="calculator-slider" id="expansion-slider" min="0" max="500000" step="25000" value="150000">
+                    </div>
+                    
+                    <div class="calculator-input-group">
+                        <label class="calculator-label">Ongoing Work (Months 7-12)</label>
+                        <input type="text" class="calculator-input" id="ongoing-value" value="£100,000">
+                        <input type="range" class="calculator-slider" id="ongoing-slider" min="0" max="300000" step="25000" value="100000">
+                    </div>
+                    
+                    <p style="margin-top: 20px; color: var(--text-light); font-size: 0.875rem; line-height: 1.6;">
+                        <strong>Typical client patterns:</strong><br>
+                        • Pharma/Healthcare: £200-400k/year<br>
+                        • Management Consultancies: £150-300k/year<br>
+                        • Tech Companies: £100-250k/year
+                    </p>
+                </div>
+                
+                <div class="calculator-results">
+                    <div class="results-card">
+                        <h3 class="results-title">Your Total Earnings</h3>
+                        <div class="results-total" id="total-earnings">£15,000</div>
+                        
+                        <div class="results-breakdown">
+                            <div class="breakdown-row">
+                                <span>Initial Project (10%)</span>
+                                <span id="initial-commission">£5,000</span>
+                            </div>
+                            <div class="breakdown-row">
+                                <span>Months 1-6 (5%)</span>
+                                <span id="expansion-commission">£7,500</span>
+                            </div>
+                            <div class="breakdown-row">
+                                <span>Months 7-12 (2.5%)</span>
+                                <span id="ongoing-commission">£2,500</span>
+                            </div>
+                        </div>
+                        
+                        <p style="margin-top: 24px; font-size: 0.875rem; opacity: 0.8;">
+                            Total client value: <span id="total-client-value">£300,000</span>
+                        </p>
+                        
+                        <a href="mailto:partnerships@smartconnectresearch.com?subject=Partner Earnings Calculation - Interested in Joining&body=Hi,%0D%0A%0D%0AI've used your commission calculator and I'm interested in becoming a partner.%0D%0A%0D%0AMy calculation showed potential earnings of [amount] based on typical client values in my network.%0D%0A%0D%0AI'd like to learn more about joining your exclusive partner programme.%0D%0A%0D%0ABest regards," class="results-cta">
+                            Start Earning These Commissions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why This Programme Section -->
+    <section class="why-programme-section" style="padding: 100px 20px; background: white;">
+        <div class="section-header">
+            <h2 class="section-title">Why We Created This Programme</h2>
+            <p class="section-subtitle">After 10 years of organic growth, it's time to reward our champions</p>
+        </div>
+        
+        <div style="max-width: 900px; margin: 60px auto; background: var(--bg-subtle); border-radius: 24px; padding: 60px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05); position: relative; overflow: hidden;">
+            <div style="position: absolute; top: 20px; left: 20px; font-size: 80px; color: var(--accent); opacity: 0.1;">"</div>
+            
+            <p style="font-size: 1.25rem; line-height: 1.8; color: var(--text); margin-bottom: 30px; font-style: italic;">
+                "Since 2016, our growth has been fueled by client referrals and partner recommendations. Why? Because we consistently deliver insights that transform businesses. Our partners - translation agencies, tech firms, panels - have been informally referring us for years because they've seen the results we deliver.
+            </p>
+            
+            <p style="font-size: 1.25rem; line-height: 1.8; color: var(--text); margin-bottom: 30px; font-style: italic;">
+                After 8 years of these informal recommendations driving our success, we realized something important: <strong>these partners deserve to be rewarded for the value they bring.</strong> They're not just making introductions - they're putting their reputation on the line by recommending us.
+            </p>
+            
+            <p style="font-size: 1.25rem; line-height: 1.8; color: var(--text); font-style: italic;">
+                This programme simply formalizes what's already happening - turning natural recommendations into rewarding partnerships where everyone wins."
+            </p>
+            
+            <div style="text-align: right; margin-top: 30px;">
+                <p style="font-weight: 700; color: var(--accent); font-size: 1.125rem;">- Felipe Parker, Co-Founder</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Double Win Section Enhanced -->
+    <section class="double-win-section">
+        <div class="section-header">
+            <h2 class="section-title">The Double-Win Advantage</h2>
+            <p class="section-subtitle">Earn commissions AND secure exclusive service contracts</p>
+        </div>
+        
+        <div class="double-win-grid">
+            <div class="double-win-visual">
+                <div class="win-card win-card-1">
+                    <h3 class="win-number">Win #1</h3>
+                    <p style="font-size: 1.5rem; font-weight: 700; margin-bottom: 12px;">Commission Income</p>
+                    <p style="font-size: 3rem; font-weight: 900;">£15-20k</p>
+                    <p class="win-value">per referral over 12 months</p>
+                </div>
+                
+                <div class="win-card win-card-2">
+                    <h3 class="win-number">Win #2</h3>
+                    <p style="font-size: 1.5rem; font-weight: 700; margin-bottom: 12px;">Service Contracts</p>
+                    <p style="font-size: 3rem; font-weight: 900;">Exclusive</p>
+                    <p class="win-value">provider status for your services</p>
+                </div>
+            </div>
+            
+            <div class="double-win-examples">
+                <h3 style="font-size: 1.75rem; color: var(--primary); margin-bottom: 30px;">Zero Conflict, Maximum Value</h3>
+                
+                <div class="example-tab">
+                    <h4 class="example-tab-header">Translation Agency Scenario</h4>
+                    <p class="example-tab-content">
+                        You refer a management consultancy needing qualitative research across 6 countries. 
+                        <span class="example-highlight">Result:</span> £15k+ in commissions over 12 months 
+                        <span class="example-highlight">PLUS</span> SCR exclusively uses YOUR translation services for all 6 markets. 
+                        That's potentially £30-50k in translation work on top of commissions.
+                    </p>
+                </div>
+                
+                <div class="example-tab">
+                    <h4 class="example-tab-header">Panel Partner Scenario</h4>
+                    <p class="example-tab-content">
+                        You introduce a pharma client needing HCP research across Europe. 
+                        <span class="example-highlight">Result:</span> £20k in commissions on their £300k spend 
+                        <span class="example-highlight">PLUS</span> you become the exclusive panel provider for all respondent recruitment. 
+                        Your referral becomes your biggest client of the year.
+                    </p>
+                </div>
+                
+                <div class="example-tab">
+                    <h4 class="example-tab-header">Tech Partner Scenario</h4>
+                    <p class="example-tab-content">
+                        You connect us with a tech giant needing continuous UX research. 
+                        <span class="example-highlight">Result:</span> £18k in commissions 
+                        <span class="example-highlight">PLUS</span> exclusive contract for all programming and tech infrastructure. 
+                        Double revenue stream from a single introduction.
+                    </p>
+                </div>
+                
+                <p style="margin-top: 30px; text-align: center; font-size: 1.25rem; font-weight: 700; color: var(--primary);">
+                    This isn't about choosing between commission or contracts.<br>
+                    <span style="color: var(--success); font-size: 1.5rem;">It's about getting both.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="how-it-works-content">
+            <div class="section-header">
+                <h2 class="section-title">How the Partnership Programme Works</h2>
+                <p class="section-subtitle">Simple process, extraordinary returns</p>
+            </div>
+            
+            <div class="partner-journey">
+                <div class="journey-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Identify Opportunity</h3>
+                    <p class="step-description">Through your existing work, you encounter high-stakes organisations needing complex, multi-market research - exactly SCR's expertise</p>
+                </div>
+                
+                <div class="journey-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Make Introduction</h3>
+                    <p class="step-description">Connect the client with SCR - a simple email introduction is all it takes</p>
+                </div>
+                
+                <div class="journey-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">We Handle Everything</h3>
+                    <p class="step-description">SCR manages the entire sales process, project delivery, and client relationship</p>
+                </div>
+                
+                <div class="journey-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Earn for 12 Months</h3>
+                    <p class="step-description">Receive commissions on all client work for a full year - no additional effort required</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commission Structure Section -->
+    <section class="commission-section" id="commission">
+        <div class="section-header">
+            <h2 class="section-title">Your 12-Month Revenue Journey</h2>
+            <p class="section-subtitle">How one introduction generates a year of income</p>
+        </div>
+        
+        <div class="commission-visual">
+            <div class="commission-timeline">
+                <div class="commission-phase phase-1">
+                    <div class="phase-label">First Project</div>
+                    <div class="phase-bar">
+                        <div class="phase-fill">10% Commission</div>
+                    </div>
+                </div>
+                
+                <div class="commission-phase phase-2">
+                    <div class="phase-label">Months 1-6</div>
+                    <div class="phase-bar">
+                        <div class="phase-fill">5% on All Work</div>
+                    </div>
+                </div>
+                
+                <div class="commission-phase phase-3">
+                    <div class="phase-label">Months 7-12</div>
+                    <div class="phase-bar">
+                        <div class="phase-fill">2.5% Ongoing</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="special-cases-card">
+                <h3 class="special-cases-title">
+                    <span style="font-size: 2rem;">🎯</span>
+                    Special One-Time Commission Opportunities (10%)
+                </h3>
+                <div class="special-cases-grid">
+                    <div class="special-case-item">
+                        <div class="special-case-title">Existing Client, New Region</div>
+                        <div class="special-case-description">
+                            Introduce us to the Asia-Pacific office of a client we only work with in Europe. Earn 10% on all new regional work.
+                        </div>
+                    </div>
+                    <div class="special-case-item">
+                        <div class="special-case-title">Reactivated Account</div>
+                        <div class="special-case-description">
+                            Reconnect us with a client who hasn't worked with SCR for 12+ months. Get 10% on their re-engagement project.
+                        </div>
+                    </div>
+                    <div class="special-case-item">
+                        <div class="special-case-title">Competitive Win</div>
+                        <div class="special-case-description">
+                            Help us win an RFP where we're competing against the incumbent. Earn 10% when we secure the contract.
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: 24px; font-style: italic; color: var(--text-light);">
+                    <strong>Important:</strong> You still become our exclusive service provider on these projects!
+                </p>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px; padding: 30px; background: white; border-radius: 16px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);">
+                <p style="font-size: 1.125rem; color: var(--text-light); margin-bottom: 16px;">
+                    Average client spends £150-300k in Year 1
+                </p>
+                <p style="font-size: 2rem; font-weight: 800; color: var(--success);">
+                    Your typical earnings: £15,000-20,000 per introduction
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Revenue Examples Section -->
+    <section class="examples-section" id="examples">
+        <div class="section-header">
+            <h2 class="section-title">Real Revenue Scenarios</h2>
+            <p class="section-subtitle">See how different partners earn with SCR</p>
+        </div>
+        
+        <div class="example-cards">
+            <div class="example-card">
+                <div class="example-partner">Translation Agency Partner</div>
+                <div class="example-scenario">Pharma Client Referral</div>
+                <div class="example-breakdown">
+                    <div class="breakdown-item">
+                        <span>Initial project (£50k)</span>
+                        <span>£5,000</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>6-month expansion (£150k)</span>
+                        <span>£7,500</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>Months 7-12 (£100k)</span>
+                        <span>£2,500</span>
+                    </div>
+                </div>
+                <div class="example-total">£15,000 Total</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="example-partner">Tech Partner</div>
+                <div class="example-scenario">Tech Client Introduction</div>
+                <div class="example-breakdown">
+                    <div class="breakdown-item">
+                        <span>Initial project (£75k)</span>
+                        <span>£7,500</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>Quarterly projects (£200k)</span>
+                        <span>£10,000</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>Year-end study (£50k)</span>
+                        <span>£1,250</span>
+                    </div>
+                </div>
+                <div class="example-total">£18,750 Total</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="example-partner">Lead Gen Partner</div>
+                <div class="example-scenario">Enterprise Referral</div>
+                <div class="example-breakdown">
+                    <div class="breakdown-item">
+                        <span>Global study (£100k)</span>
+                        <span>£10,000</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>Regional rollouts (£250k)</span>
+                        <span>£12,500</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>Ongoing tracking (£50k)</span>
+                        <span>£1,250</span>
+                    </div>
+                </div>
+                <div class="example-total">£23,750 Total</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Benefits Section -->
+    <section class="benefits-section">
+        <div class="section-header">
+            <h2 class="section-title">Why Partners Choose SCR</h2>
+            <p class="section-subtitle">Built for mutual success</p>
+        </div>
+        
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">🤝</div>
+                <h3 class="benefit-title">Zero Conflict</h3>
+                <p class="benefit-description">We complement your services, never compete. Your client relationships remain yours - we simply handle their research needs while you earn commissions.</p>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-icon">💎</div>
+                <h3 class="benefit-title">Premium Quality</h3>
+                <p class="benefit-description">90%+ client retention rate means your referrals lead to long-term revenue. Our excellence reflects positively on you.</p>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-icon">🔄</div>
+                <h3 class="benefit-title">Recurring Revenue</h3>
+                <p class="benefit-description">Unlike one-time referral fees, earn for a full year as clients expand their research programmes.</p>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-icon">📈</div>
+                <h3 class="benefit-title">Business Growth</h3>
+                <p class="benefit-description">Add a new revenue stream without new hires, infrastructure, or operational changes. Pure profit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-header">
+            <h2 class="section-title">Partner Questions Answered</h2>
+        </div>
+        
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3 class="faq-question">How is this different from typical referral programmes?</h3>
+                <p class="faq-answer">Most programmes pay once. We pay for 12 months on ALL client work - initial projects, expansions, add-ons, and renewals. One good introduction can generate £15-20k versus a typical £500-2000 referral fee.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">What types of clients are ideal for SCR?</h3>
+                <p class="faq-answer">High-stakes, insight-driven organisations with complex, multi-market research needs. This includes: global research agencies (Ipsos, Kantar), management consultancies (EY, Accenture), and corporates in healthcare, tech, and financial services. They value precision execution, operational control, and partners who protect their reputation. Minimum project: £50k.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">What size projects generate £15-20k in commissions?</h3>
+                <p class="faq-answer">Here's the breakdown: For £15k total commissions, the client needs to spend approximately £200k over 12 months (£50k initial project at 10% = £5k, £120k in months 1-6 at 5% = £6k, £160k in months 7-12 at 2.5% = £4k). For £20k commissions, approximately £300k spend. Most SCR clients spend £150-300k in year one, making these earnings very achievable.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">What's your close rate on partner referrals?</h3>
+                <p class="faq-answer">Our warm referrals from partners typically close at 60-70% because they come pre-qualified and with trust already established. We only accept referrals that match our ideal client profile (high-stakes organisations needing complex multi-market research), ensuring higher success rates for everyone.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">Do we need to change how we operate?</h3>
+                <p class="faq-answer">Not at all. Simply refer research opportunities you encounter during your normal business activities. We handle everything else - sales, delivery, invoicing, support.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">When do commissions get paid?</h3>
+                <p class="faq-answer">Within 30 days of client payment. New clients typically sign within 60 days, RFPs within 28 days. You could see first commissions within 30-45 days of introduction.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">How do I register as a partner?</h3>
+                <p class="faq-answer">This is an exclusive, invitation-only programme limited to ONE partner per category (translation agencies, lead gen firms, tech partners, fieldwork & panel partners). To secure your category: Email partnerships@smartconnectresearch.com with your company details. If approved, you'll receive partner agreement and onboarding within 48 hours. First come, first served - once a category is taken, it's closed.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">Is there any exclusivity requirement?</h3>
+                <p class="faq-answer">No exclusivity required. Work with whoever you choose. However, most partners naturally send more opportunities our way once they see the revenue potential and client satisfaction.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <div class="limited-time-badge">
+                ⏰ ONE Partner Per Category - First Come, First Served
+            </div>
+            
+            <h2 class="cta-title">Claim Your Category Before It's Gone</h2>
+            <p class="cta-subtitle">Only ONE partner per category - translation, lead gen, tech partners and fieldwork & panel partners.</p>
+            
+            <div class="cta-buttons">
+                <a href="mailto:partnerships@smartconnectresearch.com?subject=Exclusive Vendor Partnership Programme Inquiry - [Company Name]&body=Hi,%0D%0A%0D%0AWe're interested in the SCR Exclusive Vendor Partnership Programme.%0D%0A%0D%0ACompany: [Your Company]%0D%0AServices: [What you do]%0D%0ATypical clients: [Industries you serve]%0D%0A%0D%0AWe'd like to understand how referring research opportunities could create recurring revenue for us.%0D%0A%0D%0ABest regards," class="cta-primary">
+                    Become a Partner
+                </a>
+                <a href="#calculator" class="cta-secondary">Calculate Your Earnings</a>
+            </div>
+            
+            <div class="contact-info">
+                <p>Email: <a href="mailto:partnerships@smartconnectresearch.com">partnerships@smartconnectresearch.com</a></p>
+                <p>Partnership Team: Available for confidential discussions</p>
+                <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.7;">
+                    Commission Structure: 10% (first project) + 5% (months 1-6) + 2.5% (months 7-12)<br>
+                    Exclusive category rights • No fees ever • No quotas • Start earning in 30 days
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript for Calculator -->
+    <script>
+        // Format currency
+        function formatCurrency(amount) {
+            return '£' + amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        }
+        
+        // Parse currency string to number
+        function parseCurrency(str) {
+            return parseInt(str.replace(/[£,]/g, ''));
+        }
+        
+        // Update calculations
+        function updateCalculations() {
+            const initial = parseInt(document.getElementById('initial-slider').value);
+            const expansion = parseInt(document.getElementById('expansion-slider').value);
+            const ongoing = parseInt(document.getElementById('ongoing-slider').value);
+            
+            // Update input displays
+            document.getElementById('initial-project').value = formatCurrency(initial);
+            document.getElementById('expansion-value').value = formatCurrency(expansion);
+            document.getElementById('ongoing-value').value = formatCurrency(ongoing);
+            
+            // Calculate commissions
+            const initialCommission = initial * 0.10;
+            const expansionCommission = expansion * 0.05;
+            const ongoingCommission = ongoing * 0.025;
+            const totalEarnings = initialCommission + expansionCommission + ongoingCommission;
+            const totalClientValue = initial + expansion + ongoing;
+            
+            // Update results
+            document.getElementById('initial-commission').textContent = formatCurrency(Math.round(initialCommission));
+            document.getElementById('expansion-commission').textContent = formatCurrency(Math.round(expansionCommission));
+            document.getElementById('ongoing-commission').textContent = formatCurrency(Math.round(ongoingCommission));
+            document.getElementById('total-earnings').textContent = formatCurrency(Math.round(totalEarnings));
+            document.getElementById('total-client-value').textContent = formatCurrency(totalClientValue);
+            
+            // Update email link with calculated values
+            const emailLink = document.querySelector('.results-cta');
+            const subject = encodeURIComponent('Partner Earnings Calculation - Interested in Joining');
+            const body = encodeURIComponent(`Hi,\n\nI've used your commission calculator and I'm interested in becoming a partner.\n\nMy calculation showed potential earnings of ${formatCurrency(Math.round(totalEarnings))} based on typical client values in my network.\n\nI'd like to learn more about joining your exclusive partner programme.\n\nBest regards,`);
+            emailLink.href = `mailto:partnerships@smartconnectresearch.com?subject=${subject}&body=${body}`;
+        }
+        
+        // Connect sliders to inputs
+        document.getElementById('initial-slider').addEventListener('input', updateCalculations);
+        document.getElementById('expansion-slider').addEventListener('input', updateCalculations);
+        document.getElementById('ongoing-slider').addEventListener('input', updateCalculations);
+        
+        // Connect inputs to sliders
+        document.getElementById('initial-project').addEventListener('change', function() {
+            const value = parseCurrency(this.value);
+            document.getElementById('initial-slider').value = value;
+            updateCalculations();
+        });
+        
+        document.getElementById('expansion-value').addEventListener('change', function() {
+            const value = parseCurrency(this.value);
+            document.getElementById('expansion-slider').value = value;
+            updateCalculations();
+        });
+        
+        document.getElementById('ongoing-value').addEventListener('change', function() {
+            const value = parseCurrency(this.value);
+            document.getElementById('ongoing-slider').value = value;
+            updateCalculations();
+        });
+        
+        // Initialize calculations
+        updateCalculations();
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
